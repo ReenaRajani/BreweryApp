@@ -24,3 +24,17 @@ A linter is a small program that checks code for stylistic or programming errors
 - defualt parser supported is esprima, you can add additions parsers - babel, typescript, etc etc in the config
 
 references : https://eslint.org/docs/user-guide/configuring
+
+Additional references:
+https://docs.npmjs.com/files/package.json#files
+
+### Type Checking
+
+- using react PropTypes / Flow (going with Flow for now )
+  use babel/preset-flow for removing flow types during compilation
+  use @babel/eslint-parser for eslint to suppport flow
+- `yarn run flow init` creates an .flowconfig file
+
+### Future Considerations
+
+- Using TypeScript instead of Flow
