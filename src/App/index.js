@@ -15,7 +15,7 @@ const App = () => (
       flexDirection: 'column',
     }}
   >
-    <Header title="Welcome to Brewery App" />
+    <Header title="The Brewery Transport" />
     <Container />
   </div>
 );

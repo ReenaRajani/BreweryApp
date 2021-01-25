@@ -15,18 +15,35 @@ const Container = (): React.Node => {
     <div
       css={{
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100%',
-        width: '100%',
-        fontSize: '40px',
-        color: '#278911',
+        margin: '48px 96px',
+        padding: '8px',
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+        borderRadius: '8px',
       }}
     >
-      <button type="button" onClick={handleShow}>
-        <MdAdd />
-      </button>
-      <Modal title="SelectBeer" open={openModal} onClose={handleClose} />
+      <div
+        css={{
+          margin: '8px',
+          backgroundColor: 'white',
+        }}
+      >
+        <div
+          css={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100%',
+            width: '100%',
+            fontSize: '40px',
+            color: '#278911',
+          }}
+        >
+          <button type="button" onClick={handleShow}>
+            <MdAdd />
+          </button>
+          <Modal title="SelectBeer" open={openModal} onClose={handleClose} />
+        </div>
+      </div>
     </div>
   );
 };
