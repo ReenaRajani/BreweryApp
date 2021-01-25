@@ -11,6 +11,8 @@ const App = () => (
       margin: 'auto',
       width: '768px',
       height: '1024px',
+      display: 'flex',
+      flexDirection: 'column',
     }}
   >
     <Header title="Welcome to Brewery App" />

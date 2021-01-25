@@ -1,0 +1,44 @@
+{
+  "beers": [
+    {
+      "id": 1,
+      "name": "Beer 1",
+      "temperature": {
+        "Celcius": "4-6°C",
+        "Farenheit": "39.2-42.8°F"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Beer 2",
+      "temperature": {
+        "Celcius": "5-6°C",
+        "Farenheit":"41-42.8°F"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Beer 3",
+      "temperature": {
+        "Celcius": "4-7°C",
+        "Farenheit":"39.2-44.6°F"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Beer 4",
+      "temperature": {
+        "Celcius": "6-8°C",
+        "Farenheit":"42.8-46.4°F"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Beer 5",
+      "temperature": {
+        "Celcius": "3-5°C",
+        "Farenheit":"37.4-41°F"
+      }
+    }
+  ]
+}

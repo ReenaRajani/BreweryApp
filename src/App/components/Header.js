@@ -11,8 +11,8 @@ type Props = {
 const Header = ({ title }: Props): React.Node => (
   <div
     css={{
-      color: 'red',
-      textAlign: 'center',
+      fontSize: '15px',
+      color: 'black',
     }}
   >
     <h1>{title}</h1>

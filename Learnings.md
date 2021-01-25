@@ -8,7 +8,7 @@ a bundler is a tool that recursively follows all imports from the entry point of
 - From the readings find that parcel is much faster in builds and super fast with rebuilds as it supports caching
 - dead code elimination/ tree shaking( parcel supports these, webpack requires configuration setup - SideEffects flag in your package.json, using minifiers such as UglifyJSPlugin )
 - code splitting ( webpack supports lazy loading 3 ways, )
-- Live reload (inbuilt in parce, needs webpack-dev-server for webpack )
+- Live reload (inbuilt in parcel, needs webpack-dev-server for webpack )
 - Hot module replacement (only refreshes the files that were changed while still maintaining the state of the app)
 - Module transformers (Transformers are essentially teachers who teach the bundler how to process files other than JS and add them to your app’s dependency graph and bundle. Parcel automatically runs the appropriate transformer when it finds a configuration file such as.babelrc, .postcssrc, .posthtml)
 
@@ -49,3 +49,7 @@ CSS Modules: CSS file in which all class names and animation names are scoped lo
 ## Future Considerations
 
 - Using TypeScript instead of Flow
+
+## Mock Server
+
+You need to use service names as directory name and http method as filename.

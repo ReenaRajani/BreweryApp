@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const apiMocker = require('connect-api-mocker');
 
 module.exports = {
   module: {
@@ -26,4 +27,9 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+  devServer: {
+    before(app) {
+      app.use('/api', apiMocker('mock-api'));
+    },
+  },
 };
